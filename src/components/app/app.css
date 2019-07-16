@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #efefef;
+  caret-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.editor-wrap {
+  padding: 20px;
+}
+
+h3 {
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#editor {
+  min-width: 400px;
+  min-height: 150px;
+  padding: 10px;
+  border: 1px solid #999;
+  background-color: #000;
+  color: #fff;
+}
+
+.preview-wrap {
+  position: relative;
+  margin: 20px;
+}
+
+.preview-wrap h3:after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+
+#preview {
+  padding: 20px;
+}
